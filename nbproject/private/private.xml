@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Controller/DefaultController.php</file>
+            <file>file:/var/www/html/black_books/src/AppBundle/Controller/DefaultController.php</file>
+            <file>file:/var/www/html/black_books/app/config/parameters.yml</file>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Resources/views/Consulting/books.html.twig</file>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Controller/BooksController.php</file>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Controller/CategoriesController.php</file>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Resources/views/Consulting/book.html.twig</file>
+            <file>file:/var/www/html/black_books/app/Resources/views/default/index.html.twig</file>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Resources/views/Consulting/cat.html.twig</file>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Controller/ConsultingController.php</file>
+            <file>file:/var/www/html/black_books/app/Resources/views/books/index.html.twig</file>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Entity/Books.php</file>
+            <file>file:/var/www/html/black_books/src/LibraryBundle/Form/BooksType.php</file>
+        </group>
+    </open-files>
+</project-private>

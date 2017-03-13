@@ -1,0 +1,39 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}LibraryBundle:Consulting:books{% endblock %}
+
+{% block body %}
+<h1>Books list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Titre</th>
+                <th>Auteur</th>
+                <th>Categorie</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for book in books %}
+            <tr>
+                <td><a href="{{ path('adminbooks_show', { 'id': book.id }) }}">{{ book.id }}</a></td>
+                <td>{{ book.titre }}</td>
+                <td>{{ book.auteur }}</td></br>
+                <td>{{ book.categorie.nom }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('adminbooks_show', { 'id': book.id }) }}">show</a>
+                        </li>
+                        
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+        </br>
+    
+{% endblock %}

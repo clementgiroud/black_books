@@ -1,0 +1,25 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}LibraryBundle:Consulting:cat{% endblock %}
+
+{% block body %}
+<h1>Welcome to the Consulting:cat page</h1>
+
+{{categorie.nom}}
+{% for book in books %}
+            <tr>
+                <td><a href="{{ path('adminbooks_show', { 'id': book.id }) }}">{{ book.id }}</a></td>
+                <td>{{ book.titre }}</td>
+                <td>{{ book.auteur }}</td></br>
+                <td>{{ book.categorie.nom }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('adminbooks_show', { 'id': book.id }) }}">show</a>
+                        </li>
+                        
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+{% endblock %}
